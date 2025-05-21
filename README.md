@@ -1,16 +1,34 @@
-# flutter_lab_assignment_3
+# 📱 Flutter Lab Assignment 3
 
-A new Flutter project.
+A Flutter application that fetches albums and photos from the JSONPlaceholder API and displays them in an interactive UI. The app uses MVVM architecture, `flutter_bloc` for state management, and `go_router` for navigation.
 
-## Getting Started
+## 🚀 Project Overview
 
-This project is a starting point for a Flutter application.
+**Objective:**  
+Build a Flutter app that displays albums and their associated photos using data from the JSONPlaceholder API.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **UI:** Flutter Widgets
+- **State Management:** flutter_bloc
+- **Navigation:** go_router
+- **Networking:** http
+- **Architecture:** MVVM
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- ✅ Fetch albums and photos using the `http` package.
+- 📋 Display albums in a scrollable list using a clean card layout.
+- 🖼️ Show photos of a selected album in a responsive grid view.
+- 🔁 Handle loading and error states with retry options.
+- 🔄 Seamless navigation between screens using `go_router`.
+- ♻️ MVVM architecture with clean separation of concerns.
+
+## 📸 Screenshots 
+
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/c1238adc-509d-450e-a81a-ebc8850422ee" />
+
+
+
+
+
